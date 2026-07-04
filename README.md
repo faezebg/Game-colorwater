@@ -1,12 +1,12 @@
-# 🎨 Color Water Sort Game
+#  Color Water Sort Game
 
 A challenging puzzle game implemented in Java where players organize colored water into bottles by pouring and rearranging colors.
 
-## 📋 Overview
+##  Overview
 
 Color Water Sort is an engaging puzzle game that implements a complex sorting algorithm using Java data structures. Players must strategically pour colored water between bottles to arrange them by color, using a limited number of moves.
 
-## ✨ Features
+##  Features
 
 - **Interactive Gameplay**: Command-line interface for bottle selection and water pouring
 - **Custom Colors**: Define your own color palette for each game
@@ -15,7 +15,7 @@ Color Water Sort is an engaging puzzle game that implements a complex sorting al
 - **Undo Functionality**: Track and manage game moves with undo capability
 - **Smart Validation**: Automatic detection of completed bottles and game state
 
-## 🎮 Game Mechanics
+##  Game Mechanics
 
 ### Core Components
 
@@ -34,7 +34,7 @@ Color Water Sort is an engaging puzzle game that implements a complex sorting al
    - `deSelect` - Deselect current bottle
    - `pour <number>` - Pour to target bottle
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Class Hierarchy
 
@@ -70,7 +70,7 @@ Main
 - **Stacks**: For color storage in bottles
 - **Nodes**: Generic containers with bidirectional pointers
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -89,7 +89,7 @@ javac src/*.java -d bin
 java -cp bin Main
 ```
 
-## 📝 Project Structure
+##  Project Structure
 
 ```
 Game-colorwater/
@@ -103,14 +103,14 @@ Game-colorwater/
 └── README.md              # This file
 ```
 
-## 🎯 Game Rules
+##  Game Rules
 
 1. **Color Matching**: Only pour water of matching colors
 2. **Bottle Capacity**: Cannot exceed maximum bottle size
 3. **Win Condition**: All bottles contain only one color
 4. **Efficiency**: Complete puzzles in minimum moves
 
-## 🔧 Technical Details
+##  Technical Details
 
 ### Bottle Management
 - Bottles stored in circular linked list for O(1) navigation
@@ -127,7 +127,7 @@ Game-colorwater/
 - Move history for undo tracking
 - Automatic completion detection
 
-## 🐛 Known Issues & Future Improvements
+##  Known Issues & Future Improvements
 
 - [ ] Implement undo system completion
 - [ ] Add difficulty levels (easy, medium, hard)
@@ -137,7 +137,7 @@ Game-colorwater/
 - [ ] Add performance metrics
 - [ ] Implement score tracking
 
-## 📊 Complexity Analysis
+##  Complexity Analysis
 
 | Operation | Complexity | Notes |
 |-----------|-----------|-------|
@@ -146,7 +146,7 @@ Game-colorwater/
 | Display Game | O(n*m) | All bottles all colors |
 | Find Bottle | O(n) | Circular list traversal |
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please feel free to submit pull requests for:
 - Bug fixes
@@ -155,26 +155,4 @@ Contributions are welcome! Please feel free to submit pull requests for:
 - New features
 - Documentation improvements
 
-## 📄 License
 
-This project is open source and available under the MIT License.
-
-## 👨‍💻 Author
-
-Developed as an educational project to demonstrate:
-- Data structure implementation in Java
-- Linked list usage and manipulation
-- Stack operations and design patterns
-- Object-oriented game development
-
-## 🙏 Acknowledgments
-
-- Inspired by popular water sort puzzle games
-- Educational resource for data structures learning
-- Community feedback and contributions
-
----
-
-**Last Updated**: July 2026  
-**Status**: Active Development  
-**Java Version**: 8+
